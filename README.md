@@ -10,20 +10,20 @@ Antes de executar este programa, certifique-se de que você tem o Python instala
 
 1. Clone este repositório em seu computador:
 
-git clone https://github.com/seu-usuario/calculadora-enem.git
+    git clone https://github.com/NFTSZ/calculadora-enem.git
 
 2. Navegue até o diretório onde o repositório foi clonado:
 
-cd calculadora-enem
+    cd calculadora-enem
 
 3. Execute o programa:
 
-python enemmedia.py
+    python enemmedia.py
 
-    Siga as instruções na tela e digite suas notas nas respectivas disciplinas quando solicitado. Certifique-se de usar ponto (.) ao invés de vírgula (,) nas notas.
+Siga as instruções na tela e digite suas notas nas respectivas disciplinas quando solicitado. Certifique-se de usar ponto (.) ao invés de vírgula (,) nas notas.
 
-    Após inserir todas as notas, o programa calculará a média do ENEM e a exibirá na tela.
+Após inserir todas as notas, o programa calculará a média do ENEM e a exibirá na tela.
 
-##Contribuições
+## Contribuições
 
 Contribuições são bem-vindas! Se você tiver alguma sugestão de melhoria ou encontrar algum problema, sinta-se à vontade para abrir uma issue ou enviar um pull request.
