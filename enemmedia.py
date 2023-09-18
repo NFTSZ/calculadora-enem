@@ -1,19 +1,22 @@
 from time import sleep
 
-#ignorem, so p ficar bonitinho KKKKK
+# Apresentação inicial
 print('     --------------------------')
 print('     BEM VINDO A CALCULADORA ENEM')
-print('obs: use ponto(.) ao invés de virgula(,) nas notas')
+print('obs: use ponto(.) ao invés de vírgula(,) nas notas')
 print('     --------------------------\n')
 
 sleep(1)
 
-#queria ter feito algo mais curto mas o básico funciona
+# Solicitação das notas de cada disciplina
 ling = float(input('Digite sua nota em: Linguagens, Codigos e suas Tecnologias>  '))
-hum = float(input('Digite sua nota em: Ciencias Humanas e suas Tecnologias> '))
-natu = float(input('Digite sua nota em: Ciencias da Natureza e suas Tecnologias> '))
-mat = float(input('Digite sua nota em: Matematica e suas Tecnologias> '))
-red = float(input('Digite sua nota em: Redacao> '))
+hum = float(input('Digite sua nota em: Ciências Humanas e suas Tecnologias> '))
+natu = float(input('Digite sua nota em: Ciências da Natureza e suas Tecnologias> '))
+mat = float(input('Digite sua nota em: Matemática e suas Tecnologias> '))
+red = float(input('Digite sua nota em: Redação> '))
+
+# Cálculo da média
 media = (ling + hum + natu + mat + red) / 5
 
-print('Sua media no ENEM é: {:.2f}'.format(media))
+# Exibição da média no ENEM
+print('Sua média no ENEM é: {:.2f}'.format(media))
